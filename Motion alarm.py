@@ -3,7 +3,7 @@ import numpy as np
 import pygame
 
 pygame.mixer.init()
-alert_sound = pygame.mixer.Sound('C:/Users/sooda/Desktop/alarm.wav')
+alert_sound = pygame.mixer.Sound('C:/Users/sooda/Desktop/alarm.wav')#change file path here
 
 
 cap = cv2.VideoCapture(0)
